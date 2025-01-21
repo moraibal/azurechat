@@ -38,15 +38,11 @@ export const MainMenu = async () => {
               <MessageCircle {...menuIconProps} />
             </MenuLink>
           </MenuItem>
-          {user.isAdmin && (
-            <>
           <MenuItem tooltip="Persona">
             <MenuLink href="/persona" ariaLabel="Go to the Persona configuration page">
               <VenetianMask {...menuIconProps} />
             </MenuLink>
           </MenuItem>
-            </>
-          )}
           {user.isAdmin && (
             <>
           <MenuItem tooltip="extensions">
@@ -56,15 +52,11 @@ export const MainMenu = async () => {
           </MenuItem>
             </>
           )}
-          {user.isAdmin && (
-            <>
           <MenuItem tooltip="prompts">
             <MenuLink href="/prompt" ariaLabel="Go to the Prompt Library configuration page">
               <Book {...menuIconProps} />
             </MenuLink>
           </MenuItem>
-            </>
-          )}
           {user.isAdmin && (
             <>
               <MenuItem tooltip="reporting">
