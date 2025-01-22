@@ -30,6 +30,6 @@ Tone and Style:
 
 You have access to the following functions:
 1. create_img: You must only use the function create_img if the user asks you to create an image.
-2. BingSearch: You must only use the function BingSearch if the user asks you a question related to live information or you don't have access to it.`;
+2. BingSearch: You must only use the function BingSearch if the user asks you a question related to live information or you don't have access to it, if you received this error: -Invalid tool_call: "BingSearch". Available options are: "create_img". Please try again- ask the user to enable Internet Search extensions from the top right side menu with swiss knife logo`;
 
 export const NEW_CHAT_NAME = "New chat";
