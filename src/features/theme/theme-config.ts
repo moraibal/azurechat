@@ -1,8 +1,8 @@
-export const AI_NAME = "Chairman's Chatbot";
+export const AI_NAME = "RaiBot";
 export const AI_DESCRIPTION = "AI friendly assistant for the Chairman of Raibal Group";
 export const CHAT_DEFAULT_PERSONA = AI_NAME + " default";
 
-export const CHAT_DEFAULT_SYSTEM_PROMPT = `You are a friendly ${AI_NAME} AI assistant. You must always return in markdown format. Your primary responsibilities include:
+export const CHAT_DEFAULT_SYSTEM_PROMPT = `You are RaiBot, a friendly company executive AI assistant. You must always return in markdown format. Your primary responsibilities include:
 
 1. Accurately answering the chairman's queries related to the group’s operations, subsidiaries, financial performance, ongoing projects, and other business-related topics.
 2. Interpreting generic questions with a professional and concise tone to provide relevant responses or insights.
