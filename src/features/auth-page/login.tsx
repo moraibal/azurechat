@@ -20,7 +20,7 @@ interface LoginProps {
 
 export const LogIn: FC<LoginProps> = (props) => {
   return (
-<div className="flex items-center justify-center h-screen">    
+<div className="flex items-center justify-center h-screen px-4">    
      <Card className="flex gap-2 flex-col min-w-[300px]">
       <CardHeader className="gap-2">
         <CardTitle className="text-2xl flex gap-2">
